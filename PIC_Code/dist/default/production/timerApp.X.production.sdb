@@ -1,0 +1,181 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F15376 ]
+[d frameptr 6 ]
+"10 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"63 C:\Users\ANJA RAVEL\MPLABXProjects\timerApp.X\main.c
+[v _timer_interrupt timer_interrupt `II(v  1 e 1 0 ]
+"71
+[v _uart_init uart_init `(v  1 e 1 0 ]
+"87
+[v _main main `(v  1 e 1 0 ]
+[s S225 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"368 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16F1xxxx_DFP/1.26.410/xc8\pic\include\proc/pic16f15376.h
+[u S230 . 1 `S225 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES230  1 e 1 @11 ]
+[s S101 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"815
+[u S110 . 1 `S101 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES110  1 e 1 @20 ]
+[s S144 . 1 `uc 1 TRISE0 1 0 :1:0 
+`uc 1 TRISE1 1 0 :1:1 
+`uc 1 TRISE2 1 0 :1:2 
+]
+"934
+[u S148 . 1 `S144 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES148  1 e 1 @22 ]
+[s S155 . 1 `uc 1 LATE0 1 0 :1:0 
+`uc 1 LATE1 1 0 :1:1 
+`uc 1 LATE2 1 0 :1:2 
+]
+"1214
+[u S159 . 1 `S155 1 . 1 0 ]
+[v _LATEbits LATEbits `VES159  1 e 1 @28 ]
+"1630
+[v _TX1REG TX1REG `VEuc  1 e 1 @282 ]
+"1696
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @283 ]
+"1750
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @284 ]
+[s S80 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"1830
+[u S89 . 1 `S80 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES89  1 e 1 @285 ]
+[s S36 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"2010
+[u S45 . 1 `S36 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES45  1 e 1 @286 ]
+[s S57 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"2198
+[u S66 . 1 `S57 1 . 1 0 ]
+[v _BAUD1CONbits BAUD1CONbits `VES66  1 e 1 @287 ]
+"7899
+[v _TMR0L TMR0L `VEuc  1 e 1 @1436 ]
+[s S238 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T016BIT 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 T0OE 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"8311
+[s S244 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+[u S249 . 1 `S238 1 . 1 0 `S244 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES249  1 e 1 @1438 ]
+[s S166 . 1 `uc 1 T0CKPS 1 0 :4:0 
+`uc 1 T0ASYNC 1 0 :1:4 
+`uc 1 T0CS 1 0 :3:5 
+]
+"8392
+[s S170 . 1 `uc 1 T0CKPS0 1 0 :1:0 
+`uc 1 T0CKPS1 1 0 :1:1 
+`uc 1 T0CKPS2 1 0 :1:2 
+`uc 1 T0CKPS3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 T0CS0 1 0 :1:5 
+`uc 1 T0CS1 1 0 :1:6 
+`uc 1 T0CS2 1 0 :1:7 
+]
+[s S179 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+`uc 1 T0PS3 1 0 :1:3 
+]
+[s S184 . 1 `uc 1 T0PS 1 0 :4:0 
+]
+[u S186 . 1 `S166 1 . 1 0 `S170 1 . 1 0 `S179 1 . 1 0 `S184 1 . 1 0 ]
+[v _T0CON1bits T0CON1bits `VES186  1 e 1 @1439 ]
+[s S22 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"9222
+[u S27 . 1 `S22 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES27  1 e 1 @1804 ]
+[s S212 . 1 `uc 1 INTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"9528
+[u S217 . 1 `S212 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES217  1 e 1 @1814 ]
+"19423
+[v _RC2PPS RC2PPS `VEuc  1 e 1 @7970 ]
+[s S122 . 1 `uc 1 ANSC0 1 0 :1:0 
+`uc 1 ANSC1 1 0 :1:1 
+`uc 1 ANSC2 1 0 :1:2 
+`uc 1 ANSC3 1 0 :1:3 
+`uc 1 ANSC4 1 0 :1:4 
+`uc 1 ANSC5 1 0 :1:5 
+`uc 1 ANSC6 1 0 :1:6 
+`uc 1 ANSC7 1 0 :1:7 
+]
+"21180
+[u S131 . 1 `S122 1 . 1 0 ]
+[v _ANSELCbits ANSELCbits `VES131  1 e 1 @8014 ]
+"60 C:\Users\ANJA RAVEL\MPLABXProjects\timerApp.X\main.c
+[v _tick_count tick_count `ui  1 e 2 0 ]
+"61
+[v _preload preload `uc  1 e 1 0 ]
+"87
+[v _main main `(v  1 e 1 0 ]
+{
+"109
+[v main@delay_time delay_time `us  1 a 2 0 ]
+"121
+} 0
+"71
+[v _uart_init uart_init `(v  1 e 1 0 ]
+{
+"85
+} 0
+"63
+[v _timer_interrupt timer_interrupt `II(v  1 e 1 0 ]
+{
+"69
+} 0
